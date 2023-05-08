@@ -12,7 +12,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
             }
         }
     }
-    return vec![0];
+    vec![0]
 }
 
 #[cfg(test)]

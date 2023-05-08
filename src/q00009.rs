@@ -1,6 +1,6 @@
 pub fn is_palindrome(x: i32) -> bool {
     let s = x.to_string();
-    return s == s.chars().rev().collect::<String>();
+    s == s.chars().rev().collect::<String>()
 }
 
 #[cfg(test)]
